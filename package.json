@@ -1,0 +1,15 @@
+{
+  "name": "movie-fight",
+  "version": "1.0.0",
+  "description": "Compares the movies",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Chhetri don",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

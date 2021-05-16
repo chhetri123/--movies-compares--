@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="controller.js"></script>
+  </head>
+  <body>
+    <section class="hero is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Movie Fight
+            <span class="icon">
+              <i class="fas fa-film"></i>
+            </span>
+          </h1>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <!-- 
+      <div id="summary"></div> -->
+      <div class="columns">
+        <div class="column">
+          <div id="left-autocomplete">
+            <label><b>Search for a Movie </b></label>
+            <input class="input" />
+            <div class="dropdown">
+              <div class="dropdown-menu">
+                <div class="dropdown-content results"></div>
+              </div>
+            </div>
+          </div>
+          <div id="left-summary"></div>
+        </div>
+
+        <div class="column">
+          <div id="right-autocomplete">
+            <label><b>Search for a Movie </b></label>
+            <input class="input" />
+            <div class="dropdown">
+              <div class="dropdown-menu">
+                <div class="dropdown-content results"></div>
+              </div>
+            </div>
+          </div>
+          <div id="right-summary"></div>
+        </div>
+      </div>
+
+      <div class="column is-half notification is-primary tutorial">
+        <h1 class="tit">Search for movie on Both side</h1>
+        <p class="subtitle">We will tell you which is best</p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="content has-text-centered">
+        <p class="conclusion"></p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+html {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200vh;
+  color: white;
+  position: relative;
+}
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.content h1 {
+  color: #00c46a;
+}
+.content h4 {
+  color: #00c46975;
+}
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 25px;
+  background-color: #00c46a;
+  border-radius: 8px;
+}
+.input {
+  background-color: rgba(0, 0, 0, 0.781);
+  border-color: whitesmoke;
+  border-radius: 4px;
+  color: white;
+}
+
+.footer {
+  display: none;
+  padding: 20px 10px;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  background: #00c46a;
+  font-size: 30px;
+}
